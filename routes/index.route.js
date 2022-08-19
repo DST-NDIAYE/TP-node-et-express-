@@ -13,5 +13,11 @@ router.get('/api', (req, res) => {
     
 })
 
+router.get('/form', (req, res) => {
+    // res.sendFile( __dirname + '/index.html')
+    res.render('form' ) ;
+    
+})
+
 
 module.exports = router;

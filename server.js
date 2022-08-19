@@ -12,6 +12,8 @@ app.use('/' , MyRouter)
 
 app.use('/api' , MyRouter)
 
+app.use('/form' , MyRouter)
+
 app.set('view engine', 'twig') ;
 
 
