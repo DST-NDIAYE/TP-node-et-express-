@@ -19,5 +19,9 @@ router.get('/form', (req, res) => {
     
 })
 
+router.port('/form', (req, res) =>{
+    req.body
+})
+
 
 module.exports = router;
